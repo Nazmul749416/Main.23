@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border_defuld{
+    border: 1px solid #219021;
+}
+.py_8{
+    padding: 80px 0;
+}
+.py_5{
+    padding: 50px 0;
+}
+.container_X{
+    width: 1065px;
+    margin: auto;
+}
+/* ==================================== */
+/* =============Header Menu============*/
+/* ==================================== */
+.header_menu{
+    background: #111;
+    padding: 15px 0;
+}
+.flex_content{
+    display: flex;
+}
+.menu_logo{
+    flex-basis: 40%;
+    text-align:center;
+}
+.menu_logo img{ 
+    width: 80px;
+}
+.menu_item{
+    flex-basis: 60%;
+}
+.menu_item ul{
+    text-align: left;
+    line-height: 40px;
+    
+}
+.menu_item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu_item ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    margin-left: 20px;
+    
+}
+/* ==================================== */
+/* =============Flex Section============*/
+/* ==================================== */
+.flex_section{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.left_content{
+    flex-basis: 80%;
+    padding: 100px 0;
+}
+.right_content{
+    flex-basis: 20%;
+}
+.left_content_item{
+    display: flex;
+    justify-content: space-between;
+}
+.left_div1 {
+	width: 320px;
+	height: 250px;
+}
+.left_div2 {
+	width: 320px;
+	height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_div3 {
+	width: 320px;
+	height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.left_box1 p {
+	padding: 30px 5px;
+	background: red;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+.left_box2 p {
+	padding: 30px 5px;
+	background: red;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+.left_box3 p {
+	padding: 30px 5px;
+	background: red;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+/* Row 2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.left_row_2{
+    display: flex;
+}
+.row_2_item{
+    flex: 1 0 0%;
+    padding: 25px;
+    margin-left: 40px;
+    
+}
+.row_2_item:nth-child(1){
+    margin-left: 0;
+}
+.bigger_row{
+    flex-grow: 2;
+}
+/* Row 3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.left_row_3{
+    display: flex;
+}
+.Box_1{
+    display: flex;
+    justify-content: space-between;
+}
+.Box_2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px !important;
+}
+.Box_3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.row_3_item{
+    width: 350px;
+    margin-left: 40px;
+}
+.row_3_item:nth-child(1){
+    margin-left: 0;
+}
+.row_3_item ul{
+    padding: 25px;
+}
+.row_3_item ul li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    background: red;
+    border: 1px solid green;
+    color: #fff;
+}
+.first_flex{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.scnd_flex{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thrd_flex{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.inner_content p{
+    padding: 5px ;
+    background: red;
+    display: inline-block;
+    border: 1px solid green;
+    color: #fff;
+}
+
+/* Right Sideber >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.right_content{
+    background: #d2d2d2;
+    border-left: 2px solid red;
+}
+.right_content_item{
+    margin-left: 25px;
+    
+}
+.right_content_item h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/* ==================================== */
+/* ===========Footer Section===========*/
+/* ==================================== */
+.footer_section{
+    background: #111;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.footer_item{
+    text-align: center;
+}
+.footer_item ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer_item ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    margin-left: 20px;
+    
+}
